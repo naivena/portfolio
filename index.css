@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    background-color: #DDA0DD;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+}
+
+.header-menu nav {
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.lista-menu {
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    display: flex;
+    background-color:#FFFFFF;
+    height:80vh;
+
+}
+
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 32px;
+   
+
+}
+
+.div_img{
+    margin-top: 100px;
+    top:20%;
+    left:42%;
+    align-items: center;
+    
+}
+
+
+.info-formacao {
+    display:flex; 
+    margin-bottom: 900px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    flex-direction: column;
+    height:100px;
+    line-height:32px;
+    
+}
+
+
+
+.info-portfolio {
+    display:flex; 
+    margin-bottom: 60px;
+    margin-top: 50px;
+    flex-direction: column;
+    height:100px;
+    line-height: 32px;
+    
+    
+}
+
+
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 200%;
+}
+
+.footer {
+    background-color:#EE82EE;
+    height: 32vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 32px;
+}
+
+.estilo-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    
+   
+}
+
+.link {
+    color:#FFFFFF;
+    text-decoration: none;
+
+}
